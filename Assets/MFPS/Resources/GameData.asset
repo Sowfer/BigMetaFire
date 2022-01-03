@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GameData
   m_EditorClassIdentifier: 
   offlineMode: 0
-  UseLobbyChat: 0
+  UseLobbyChat: 1
   UseVoiceChat: 1
   BulletTracer: 1
   DropGunOnDeath: 1
@@ -23,7 +23,7 @@ MonoBehaviour:
   ShowTeamMateHealthBar: 1
   CanChangeTeam: 1
   ShowBlood: 1
-  DetectAFK: 0
+  DetectAFK: 1
   MasterCanKickPlayers: 1
   ArriveKitsCauseDamage: 1
   CalculateNetworkFootSteps: 1
@@ -55,7 +55,7 @@ MonoBehaviour:
   SpawnProtectedTime: 5
   CountDownTime: 10
   PlayerRespawnTime: 7
-  MaxFriendsAdded: 25
+  MaxFriendsAdded: 74
   afterMatchCountdown: 5
   AFKTimeLimit: 60
   MaxChangeTeamTimes: 3

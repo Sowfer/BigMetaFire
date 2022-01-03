@@ -1,0 +1,1018 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 40637 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Jhonathan/BigMetaFire
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51531
+Successfully changed project path to: C:/Users/Jhonathan/BigMetaFire
+C:/Users/Jhonathan/BigMetaFire
+Using Asset Import Pipeline V2.
+Default GameObject Tag: AI already registered
+Refreshing native plugins compatible for Editor in 60.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jhonathan/BigMetaFire/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.14.7247
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002566 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.34 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.386 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1387ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (344ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (137ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (54ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0004c] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <2cd7ebc9c2ef4276a8edbc7de85c89ce>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (850ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (712ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Default GameObject Tag: AI already registered
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2795 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.1 MB.
+System memory in use after: 130.3 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 3214.
+Total: 4.753300 ms (FindLiveObjects: 0.199700 ms CreateObjectMapping: 0.072000 ms MarkObjects: 4.382200 ms  DeleteObjects: 0.098200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/MFPS/Resources/GameData.asset
+  artifactKey: Guid(16fa306ceeab08a4d9ce13858a073b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Resources/GameData.asset using Guid(16fa306ceeab08a4d9ce13858a073b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828a29f7151e9809512b6909cba46d58') in 0.474534 seconds 
+  Import took 0.493577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.012037 seconds.
+  path: Assets/MFPS/Scripts/GamePlay/GameModes/FreeForAll
+  artifactKey: Guid(7594c6c0c31080147918eb6bf3ef8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/GamePlay/GameModes/FreeForAll using Guid(7594c6c0c31080147918eb6bf3ef8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5785fc2774d7f88ef20b538db61abe98') in 0.002854 seconds 
+  Import took 0.007093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.679014 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor
+  artifactKey: Guid(c35e58f790360dd468792ba00ef81851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor using Guid(c35e58f790360dd468792ba00ef81851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b600ecaa2b6c504b4b697d6ee4d2347') in 0.004231 seconds 
+  Import took 0.009146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.685875 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS
+  artifactKey: Guid(467db3e6e3e744b4c92bddc745a04d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS using Guid(467db3e6e3e744b4c92bddc745a04d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c888273b7610b6043d33deeda3a4cbcf') in 0.003502 seconds 
+  Import took 0.009192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.590291 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Windows
+  artifactKey: Guid(2495461c3438d404a9b9c7987dd0d7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Windows using Guid(2495461c3438d404a9b9c7987dd0d7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8d06353df9225e3a8dde5ab1eb18e1') in 0.003553 seconds 
+  Import took 0.008310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.418283 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Windows/MFPSAddon.cs
+  artifactKey: Guid(a776487618c5eca41bfe2a54260297f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Windows/MFPSAddon.cs using Guid(a776487618c5eca41bfe2a54260297f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5488dfc02396a1463ec4065ddfc908') in 0.006695 seconds 
+  Import took 0.010693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.402029 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content
+  artifactKey: Guid(0d3b638ae9c83064e854c39e8127a775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content using Guid(0d3b638ae9c83064e854c39e8127a775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24f47cf6079522f10947351419d4150') in 0.004119 seconds 
+  Import took 0.008523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061503 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/box-50a.png
+  artifactKey: Guid(7c9a4391e4a3ae24e92a12ae242d2b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/box-50a.png using Guid(7c9a4391e4a3ae24e92a12ae242d2b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81551b426df80d91b1b3b48076355395') in 0.030814 seconds 
+  Import took 0.035156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/dot-bluelight.psd
+  artifactKey: Guid(74eb2a6f0d1e31d43b60b172b04f85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/dot-bluelight.psd using Guid(74eb2a6f0d1e31d43b60b172b04f85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55dfd3e6c4aa78f1c1cbadca1695d1a') in 0.012253 seconds 
+  Import took 0.016402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/dot-whitte.psd
+  artifactKey: Guid(1db716415140d1942ae597f17bcd44d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/dot-whitte.psd using Guid(1db716415140d1942ae597f17bcd44d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8125f64be902eada4b48b1d2da501e75') in 0.011661 seconds 
+  Import took 0.015957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/corner.png
+  artifactKey: Guid(9f149f0e86c53d843a72ce065e055f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/corner.png using Guid(9f149f0e86c53d843a72ce065e055f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae3019e4b98f94dfcf71e44b30f9f0a') in 0.041188 seconds 
+  Import took 0.045196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/dot-gray.psd
+  artifactKey: Guid(ab88d5d03dbb9424fa6fc3f0ef14f012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/dot-gray.psd using Guid(ab88d5d03dbb9424fa6fc3f0ef14f012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe48d2bf4dd51416c97de506f6092b6f') in 0.010299 seconds 
+  Import took 0.014398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/lovattostudio-logo.png
+  artifactKey: Guid(c4bb600a5c701294aa0c99f96c8b960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/lovattostudio-logo.png using Guid(c4bb600a5c701294aa0c99f96c8b960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2bd75631979edd6ed85d3783768ad9') in 0.012949 seconds 
+  Import took 0.017309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/button-corner.png
+  artifactKey: Guid(533702d096c88c649ab3b636a7805f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/button-corner.png using Guid(533702d096c88c649ab3b636a7805f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8905c77c96420259be2c7029c1bf857') in 0.017476 seconds 
+  Import took 0.021664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/editor-mfps-bold.ttf
+  artifactKey: Guid(f173b4aba66b71d4181e43846cb635e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/editor-mfps-bold.ttf using Guid(f173b4aba66b71d4181e43846cb635e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf6f11b088ea7bb6024dd6f6ac05ec8') in 0.050651 seconds 
+  Import took 0.054941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Lato-Light.ttf
+  artifactKey: Guid(46b59007e6adf6a4fba88497334625fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Lato-Light.ttf using Guid(46b59007e6adf6a4fba88497334625fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea86c82a1c2dbc90708d86523421f3b1') in 0.020369 seconds 
+  Import took 0.024344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.784124 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images
+  artifactKey: Guid(db2502ba1c8a553419a3b6f91debb50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images using Guid(db2502ba1c8a553419a3b6f91debb50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637952276a8a5d0f1ad4de3c4159c1ec') in 0.002731 seconds 
+  Import took 0.007698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057950 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/addon-icon-a.png
+  artifactKey: Guid(2aeec6568247aec4a899641ff335e1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/addon-icon-a.png using Guid(2aeec6568247aec4a899641ff335e1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3856b784caa9c069705fb93fb025ac4') in 0.011647 seconds 
+  Import took 0.016014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/side-soldier.png
+  artifactKey: Guid(398808ae2a2c6f142a3062172c03cc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/side-soldier.png using Guid(398808ae2a2c6f142a3062172c03cc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7431e55d951e492f668ea4e1740e2109') in 0.013653 seconds 
+  Import took 0.017633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/dockarea edge semi.png
+  artifactKey: Guid(b3ea47abbd9b952408a049b4d7bb0172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/dockarea edge semi.png using Guid(b3ea47abbd9b952408a049b4d7bb0172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ec89b5b4b9f39ea59f71f0c31d6b9c') in 0.010831 seconds 
+  Import took 0.015371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/backgroundw.png
+  artifactKey: Guid(30170957224f9084a894dd42f2dab676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/backgroundw.png using Guid(30170957224f9084a894dd42f2dab676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea061215a24ac8aa58e8296d22a9143') in 0.023583 seconds 
+  Import took 0.027898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/background.png
+  artifactKey: Guid(3d3c95caf21cb0f4a8dfeea981017654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/background.png using Guid(3d3c95caf21cb0f4a8dfeea981017654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03274299dd7ed0cc805da86d20d931d2') in 0.010871 seconds 
+  Import took 0.014904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/mfps-welcome-editor.png
+  artifactKey: Guid(1c11fe3f4028ca5478422a0061800839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/mfps-welcome-editor.png using Guid(1c11fe3f4028ca5478422a0061800839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfa6485b184a2b94674f34b66881c9b') in 0.022626 seconds 
+  Import took 0.026636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/human_81184.png
+  artifactKey: Guid(b8841a16855aa1f4eb78573e53bcda4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/human_81184.png using Guid(b8841a16855aa1f4eb78573e53bcda4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef87e65444d4757ba955eca3afab6808') in 0.022787 seconds 
+  Import took 0.026668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/outline-1px.png
+  artifactKey: Guid(b8a8589ef6b5ccf49b89a2ee5922bc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/outline-1px.png using Guid(b8a8589ef6b5ccf49b89a2ee5922bc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25da934a3df5e8ea9b753c351f8a20e8') in 0.012333 seconds 
+  Import took 0.016380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/dockarea back hover.png
+  artifactKey: Guid(f61416a96d2c6b4408fcf54f8b0a0c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/dockarea back hover.png using Guid(f61416a96d2c6b4408fcf54f8b0a0c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc550216fcd7b322508c55c916a6937') in 0.010381 seconds 
+  Import took 0.015575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/Banner.png
+  artifactKey: Guid(ceb16aa47d35e7d429e76f5962a66b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/Banner.png using Guid(ceb16aa47d35e7d429e76f5962a66b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c8685d10a4174b6deb47503afb6229') in 0.022460 seconds 
+  Import took 0.026454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/database_1374.png
+  artifactKey: Guid(30c552020343187419d3568afc523ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/database_1374.png using Guid(30c552020343187419d3568afc523ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178743580125183cc4a43c6bf63f1706') in 0.022070 seconds 
+  Import took 0.025984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/img-loading-holder.png
+  artifactKey: Guid(b7984051d0e72b64f856747cc9a093b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/img-loading-holder.png using Guid(b7984051d0e72b64f856747cc9a093b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d7faef116dcedd55520a389bbad198') in 0.017686 seconds 
+  Import took 0.021984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/dockarea back.png
+  artifactKey: Guid(056cb4b69e5842b4c830638e5210ad6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/dockarea back.png using Guid(056cb4b69e5842b4c830638e5210ad6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33c336ffc8365bae9b7b68482508e29') in 0.011501 seconds 
+  Import took 0.015652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/mfps-name.png
+  artifactKey: Guid(342461111a2db42499bf3be2973408d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/mfps-name.png using Guid(342461111a2db42499bf3be2973408d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c28295bff6ffb02ca856addeeea17b') in 0.013208 seconds 
+  Import took 0.017425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/addon-icon.jpg
+  artifactKey: Guid(2ad74732d9295784096d8239eb5b73d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/addon-icon.jpg using Guid(2ad74732d9295784096d8239eb5b73d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02a4921a2479c8940e39a59a8302078') in 0.011651 seconds 
+  Import took 0.016325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/dockarea edge.png
+  artifactKey: Guid(70316925fcb010046a58946ab07f3198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Internal/Editor/MFPS/Resources/content/Images/dockarea edge.png using Guid(70316925fcb010046a58946ab07f3198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04655674f61368961da4da7ceb79952d') in 0.012472 seconds 
+  Import took 0.016417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.455939 seconds.
+  path: Assets/MFPS/Scripts/Network/Room
+  artifactKey: Guid(a61f3e623f48cb145b884a834e8f6d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Scripts/Network/Room using Guid(a61f3e623f48cb145b884a834e8f6d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec92afb879acf6669b95a82aa6a29a21') in 0.003505 seconds 
+  Import took 0.008033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.215802 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials
+  artifactKey: Guid(9dc27d0f49e49b848b115c7fb1235c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials using Guid(9dc27d0f49e49b848b115c7fb1235c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5f3e5544cacfbf567377a2f7c6e5c0') in 0.003139 seconds 
+  Import took 0.007800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.951236 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc
+  artifactKey: Guid(44e67ebfbf310d1429802c1b6048a8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc using Guid(44e67ebfbf310d1429802c1b6048a8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623e25ed3e188d756a96715adf6a5404') in 0.002996 seconds 
+  Import took 0.007750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069236 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc/AimHelper.mat
+  artifactKey: Guid(7b7ab74fe749edf4eaf28b34967b08b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc/AimHelper.mat using Guid(7b7ab74fe749edf4eaf28b34967b08b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1bab7ca2b2dc1b3b92eb2e572e1134') in 0.014802 seconds 
+  Import took 0.018964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc/Circle-outline.mat
+  artifactKey: Guid(2fb69c5b3ba16d942a3757af98ba7fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc/Circle-outline.mat using Guid(2fb69c5b3ba16d942a3757af98ba7fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c83e57ff157eb7657a68a09c2deec7') in 0.014497 seconds 
+  Import took 0.018637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc/Kit Caller.mat
+  artifactKey: Guid(b37252dc1d77c1d43a12c80868fcb9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc/Kit Caller.mat using Guid(b37252dc1d77c1d43a12c80868fcb9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d33baffe6a9c8fefa8f9d2c677a196') in 0.023571 seconds 
+  Import took 0.027712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc/SpanwPoint.mat
+  artifactKey: Guid(209b74ac02d6b574ebb49b0b860484c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc/SpanwPoint.mat using Guid(209b74ac02d6b574ebb49b0b860484c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161e075cf60d238fa83f276481e342e6') in 0.023879 seconds 
+  Import took 0.028137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc/black.mat
+  artifactKey: Guid(5916906c2824a7042a9a4354a6a95ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc/black.mat using Guid(5916906c2824a7042a9a4354a6a95ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385828e38cdb8285efa16de14124b3db') in 0.014550 seconds 
+  Import took 0.018457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc/DZ.mat
+  artifactKey: Guid(04e888dcb15dc884f84947488b6f2cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc/DZ.mat using Guid(04e888dcb15dc884f84947488b6f2cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252530bfb24f77a474be059a9f626193') in 0.090059 seconds 
+  Import took 0.094121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc/Sky.mat
+  artifactKey: Guid(13da1f78f30be50469f8f223fef06406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc/Sky.mat using Guid(13da1f78f30be50469f8f223fef06406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9533c4456e120c08a11867f48ef5aa52') in 0.024188 seconds 
+  Import took 0.028170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc/t_shell.png
+  artifactKey: Guid(66631c225aca19a47823639c8c3e1f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc/t_shell.png using Guid(66631c225aca19a47823639c8c3e1f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c766bc26a100d2ed8154d3385d00a5f5') in 0.011716 seconds 
+  Import took 0.016187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc/DesactiveMat.mat
+  artifactKey: Guid(8a8ab13e35df4c140a8838bd1a9aed09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc/DesactiveMat.mat using Guid(8a8ab13e35df4c140a8838bd1a9aed09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9caa18a7be8c8b836e0ca6fb1fa071e2') in 0.021968 seconds 
+  Import took 0.025989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc/RespawnCircle.tif
+  artifactKey: Guid(f44386be8c8f58645a21f7740e39195a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc/RespawnCircle.tif using Guid(f44386be8c8f58645a21f7740e39195a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e007a05efa610b5302c514dba56483') in 0.016196 seconds 
+  Import took 0.020272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc/yellow-particle.mat
+  artifactKey: Guid(eb85d66e1267a824c9d0f136978b0f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc/yellow-particle.mat using Guid(eb85d66e1267a824c9d0f136978b0f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ddbf29b31b6ea42bb2f3e4ac14a332') in 0.022401 seconds 
+  Import took 0.026870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/Misc/JumpPlatform.mat
+  artifactKey: Guid(bf9050bf5ee07a947ade75fcdb79c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/Misc/JumpPlatform.mat using Guid(bf9050bf5ee07a947ade75fcdb79c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331721f0552d1810aefb4f24473b72a5') in 0.021661 seconds 
+  Import took 0.025912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.735831 seconds.
+  path: Assets/MFPS/Content/Art/UI/GUI Skins
+  artifactKey: Guid(6230b2ab584258846b5d97920bb7710a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/GUI Skins using Guid(6230b2ab584258846b5d97920bb7710a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec4fe6b05445047b1939c19c47d2b8a') in 0.003773 seconds 
+  Import took 0.008677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.894746 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons
+  artifactKey: Guid(3fa60c13d5b1f35408a02e9f2c3411f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons using Guid(3fa60c13d5b1f35408a02e9f2c3411f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295998d265c1afa87f3d7e39213581a1') in 0.002816 seconds 
+  Import took 0.007700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057933 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/accident_91664.png
+  artifactKey: Guid(e89c6f073775b404aac58465f9a24d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/accident_91664.png using Guid(e89c6f073775b404aac58465f9a24d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25393d7b3559b3bd06d869b8746e6e32') in 0.017121 seconds 
+  Import took 0.021280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/speaker.png
+  artifactKey: Guid(95a58546c822cc34592252627681cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/speaker.png using Guid(95a58546c822cc34592252627681cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf9209f6c294c781974a674b09ae3e6') in 0.016879 seconds 
+  Import took 0.020732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/mfps-soldier.png
+  artifactKey: Guid(f5d158d69c350664cbfea2dacf487f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/mfps-soldier.png using Guid(f5d158d69c350664cbfea2dacf487f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96b5fcd48a77d4e5ac5a6123011c721') in 0.023756 seconds 
+  Import took 0.027956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/padlock.png
+  artifactKey: Guid(2231fe4c82824284b9737eef0aa64003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/padlock.png using Guid(2231fe4c82824284b9737eef0aa64003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eefcaa0d81ad746b422638012968512') in 0.012366 seconds 
+  Import took 0.017026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/player-state.png
+  artifactKey: Guid(6ef352dfd7bd28d48a26719e9c313e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/player-state.png using Guid(6ef352dfd7bd28d48a26719e9c313e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03178b70b5b9f04ffea1c8af63460bb3') in 0.026748 seconds 
+  Import took 0.030978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/wrench.png
+  artifactKey: Guid(70031709382732e4c9afec25d00a19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/wrench.png using Guid(70031709382732e4c9afec25d00a19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f4ba456acd6e5bc2d761d7348c829e') in 0.015035 seconds 
+  Import took 0.020049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/warning.png
+  artifactKey: Guid(83191953378eaaa4b945d5a6e42defef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/warning.png using Guid(83191953378eaaa4b945d5a6e42defef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ee0da08a6967164b82f06dbc5a0f3f') in 0.017501 seconds 
+  Import took 0.022875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/rs-minimal-white.png
+  artifactKey: Guid(bf65bc8e084cbaa48b1921fd72d47f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/rs-minimal-white.png using Guid(bf65bc8e084cbaa48b1921fd72d47f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b59c80bf00993a21bbc8f2188764c6') in 0.055247 seconds 
+  Import took 0.059258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/Damage_Directional.psd
+  artifactKey: Guid(f129221210d566849a53f2c4d8c88cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/Damage_Directional.psd using Guid(f129221210d566849a53f2c4d8c88cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994ea10028c71d14383b4760636979bd') in 0.024090 seconds 
+  Import took 0.027838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/eye-close-up.png
+  artifactKey: Guid(a12bc0a53fc4a994fbf86d543cb164f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/eye-close-up.png using Guid(a12bc0a53fc4a994fbf86d543cb164f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4b7c0efa3216a16cf78052c9281775') in 0.020254 seconds 
+  Import took 0.024375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/bullets.png
+  artifactKey: Guid(b0352e7b0e89e984684cea8e468cbe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/bullets.png using Guid(b0352e7b0e89e984684cea8e468cbe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa5dd3fc1a95600399e414c6992accd') in 0.013241 seconds 
+  Import took 0.017306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/tick.png
+  artifactKey: Guid(f4f318ab0ec0d194ebc854f59c4ae81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/tick.png using Guid(f4f318ab0ec0d194ebc854f59c4ae81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298bf9579cba2b1dfed20848807425c2') in 0.021394 seconds 
+  Import took 0.025552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/power-signal.png
+  artifactKey: Guid(e45b14cf8a57b5e4bbf4ab2580bd2462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/power-signal.png using Guid(e45b14cf8a57b5e4bbf4ab2580bd2462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e470bdb1dcfaeadfcc14ddd87dee3d') in 0.024570 seconds 
+  Import took 0.028553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/wireless_3215184.png
+  artifactKey: Guid(f92224f4ae728c44496c6dc8275f2c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/wireless_3215184.png using Guid(f92224f4ae728c44496c6dc8275f2c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2922233bbc99de8e9b3eccc95ef65593') in 0.019828 seconds 
+  Import took 0.024017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/head.png
+  artifactKey: Guid(a520cf12a4f5d184185ebe73a1317011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/head.png using Guid(a520cf12a4f5d184185ebe73a1317011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0aebb2092024d129585517b367da9a') in 0.022420 seconds 
+  Import took 0.026576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/retweet-arrows.png
+  artifactKey: Guid(95053c1d287d8cd408e4392d19c7be7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/retweet-arrows.png using Guid(95053c1d287d8cd408e4392d19c7be7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9d0792c82d39e729a6ce9bdb121ac2') in 0.022822 seconds 
+  Import took 0.026830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/target.png
+  artifactKey: Guid(694d13ff81af88746ae8c1c7e22f5870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/target.png using Guid(694d13ff81af88746ae8c1c7e22f5870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a495e8f9ce554e96576fa031d6260969') in 0.021778 seconds 
+  Import took 0.025755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/Add-Friend.psd
+  artifactKey: Guid(e06ac9e08a53ddd40a254833bc9fd263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/Add-Friend.psd using Guid(e06ac9e08a53ddd40a254833bc9fd263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8b0513fbf9549bb27e5597eb1ae85a') in 0.023705 seconds 
+  Import took 0.027724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/close_22108.png
+  artifactKey: Guid(0ad58e56436014548981aae87d572f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/close_22108.png using Guid(0ad58e56436014548981aae87d572f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfface2dfa87e9e6e30209c9463f400') in 0.017859 seconds 
+  Import took 0.022124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/down-up.png
+  artifactKey: Guid(569dcfda0bfcad94cb73e2fcd988300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/down-up.png using Guid(569dcfda0bfcad94cb73e2fcd988300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b6e83c54f80af96027cd7eb5a16b51') in 0.010066 seconds 
+  Import took 0.014306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/Flag.png
+  artifactKey: Guid(b96c94c3b1d7e9d43be624a1bf3267eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/Flag.png using Guid(b96c94c3b1d7e9d43be624a1bf3267eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2067c5950d2b31fe6e73db2e5f5e619') in 0.013923 seconds 
+  Import took 0.018289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/hospital.png
+  artifactKey: Guid(94023acb2bb71dc48803d59834b5dde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/hospital.png using Guid(94023acb2bb71dc48803d59834b5dde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73ac0e5549944e3c23392e619eef781') in 0.015252 seconds 
+  Import took 0.019463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/right-arrow.png
+  artifactKey: Guid(c05d54d2d6561d74c9c1e546d618c0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/right-arrow.png using Guid(c05d54d2d6561d74c9c1e546d618c0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da709ae0863a864afa162a54d6ceefb9') in 0.014355 seconds 
+  Import took 0.018524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/settings-work-tool.png
+  artifactKey: Guid(2f2e7915ec7d3bb469559d7ab943ec8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/settings-work-tool.png using Guid(2f2e7915ec7d3bb469559d7ab943ec8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b02410f84597e0604e5f056c13a498') in 0.014342 seconds 
+  Import took 0.018517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/send-button.png
+  artifactKey: Guid(aa3b5d0096ccfce4a82f71ce423b0047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/send-button.png using Guid(aa3b5d0096ccfce4a82f71ce423b0047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a798575dbf5b4ee67d0d32e0ea37c0') in 0.013440 seconds 
+  Import took 0.018330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/ping.psd
+  artifactKey: Guid(d719b2f10328a0848b4aeb090e5caa70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/ping.psd using Guid(d719b2f10328a0848b4aeb090e5caa70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba24dc6ecf8c16d8847ad1f60d90fd2') in 0.011601 seconds 
+  Import took 0.015794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/coins-stack.png
+  artifactKey: Guid(b63f2ec89075432428780ee2c4a78bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/coins-stack.png using Guid(b63f2ec89075432428780ee2c4a78bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eec8b8ebfc28e6da9a7b130bde88a02') in 0.015873 seconds 
+  Import took 0.020117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/down-arrow.png
+  artifactKey: Guid(977f7f8c5b86e604ca1fbfac10fcaccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/down-arrow.png using Guid(977f7f8c5b86e604ca1fbfac10fcaccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e2ec6b24bd8b1dab3bc41ef1e35722') in 0.009285 seconds 
+  Import took 0.013245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/MFPS/Content/Art/UI/Icons/funny-skull-.png
+  artifactKey: Guid(ca37e507e47f9f148b92dd984e3137f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Icons/funny-skull-.png using Guid(ca37e507e47f9f148b92dd984e3137f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fdd4f416cab12af3069dcae20fcc67') in 0.017998 seconds 
+  Import took 0.022198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.445877 seconds.
+  path: Assets/MFPS/Content/Art/UI/Shapes
+  artifactKey: Guid(f6808088144c29643b66720af1133a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Shapes using Guid(f6808088144c29643b66720af1133a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f439ba67a2ef6424e5c886d74bd65d') in 0.004047 seconds 
+  Import took 0.008368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055940 seconds.
+  path: Assets/MFPS/Content/Art/UI/Shapes/arrow_56809.png
+  artifactKey: Guid(b4b8ca8346643df47add936e3cb4b00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Shapes/arrow_56809.png using Guid(b4b8ca8346643df47add936e3cb4b00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcfc1488ba20094a7d9f2f81cc5bee7') in 0.013594 seconds 
+  Import took 0.018206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/MFPS/Content/Art/UI/Shapes/circular-shape-silhouette.png
+  artifactKey: Guid(4f5bb4d8b95b9654f8f4864b230347c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Shapes/circular-shape-silhouette.png using Guid(4f5bb4d8b95b9654f8f4864b230347c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c0b620d67988b1764818a5b79d310e') in 0.011646 seconds 
+  Import took 0.015860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/MFPS/Content/Art/UI/Shapes/box.psd
+  artifactKey: Guid(e119ae1c387238a4e936ec93b888a7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Shapes/box.psd using Guid(e119ae1c387238a4e936ec93b888a7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2564b7f090ff855110cf5630cb1b4c6c') in 0.015931 seconds 
+  Import took 0.021321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/MFPS/Content/Art/UI/Shapes/circle-outline.png
+  artifactKey: Guid(55b707e27933c6447b2f0a591bc8a609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Shapes/circle-outline.png using Guid(55b707e27933c6447b2f0a591bc8a609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4761c9b35a88aa774023f80c5f515996') in 0.016364 seconds 
+  Import took 0.021259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/MFPS/Content/Art/UI/Shapes/circle-outline-small.png
+  artifactKey: Guid(55e8e49ab51671d44b9c5f3f6e19a8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Shapes/circle-outline-small.png using Guid(55e8e49ab51671d44b9c5f3f6e19a8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d4ecb28626ea1d6e8215332951d078') in 0.014228 seconds 
+  Import took 0.018878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/MFPS/Content/Art/UI/Shapes/DownArrow.psd
+  artifactKey: Guid(792ac8cab527c304d9dc4ba3668a72e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Shapes/DownArrow.psd using Guid(792ac8cab527c304d9dc4ba3668a72e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd14702a145d158bde3403440a9623c') in 0.010176 seconds 
+  Import took 0.015429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/MFPS/Content/Art/UI/Shapes/box-16px.psd
+  artifactKey: Guid(ca4f245ce554ba04e9077565d5667264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Shapes/box-16px.psd using Guid(ca4f245ce554ba04e9077565d5667264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a305f31372c1bf2effaef060dd4d2b') in 0.013344 seconds 
+  Import took 0.018093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.489567 seconds.
+  path: Assets/MFPS/Content/Art/UI/Weapons
+  artifactKey: Guid(c9e6b00b17299cc4996f0115ada4becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Weapons using Guid(c9e6b00b17299cc4996f0115ada4becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5250e339cd0bcb1cf36194151ee971f7') in 0.002999 seconds 
+  Import took 0.007978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048851 seconds.
+  path: Assets/MFPS/Content/Art/UI/Weapons/grenade.png
+  artifactKey: Guid(5888e24ba146f2141b5c01400fd2c24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Weapons/grenade.png using Guid(5888e24ba146f2141b5c01400fd2c24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69b803516f60dc60c9c2c337ddf419c') in 0.012350 seconds 
+  Import took 0.016563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/MFPS/Content/Art/UI/Weapons/shotgun.png
+  artifactKey: Guid(f46bf914a29644c46a4d817ec77246cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Weapons/shotgun.png using Guid(f46bf914a29644c46a4d817ec77246cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ea34f2e21c56bad9c3d2ea04a99d6a') in 0.016864 seconds 
+  Import took 0.021110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/MFPS/Content/Art/UI/Weapons/pistol.png
+  artifactKey: Guid(67817f6c38715a64a8074a1940d6b966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Weapons/pistol.png using Guid(67817f6c38715a64a8074a1940d6b966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd7b44bc91b08fe5da5cd57ff404f3b') in 0.025742 seconds 
+  Import took 0.030246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/MFPS/Content/Art/UI/Weapons/launcher.png
+  artifactKey: Guid(f22b479294de3414e987ba1cb0e2e81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Weapons/launcher.png using Guid(f22b479294de3414e987ba1cb0e2e81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590d27915ae9ad6552549cc74aa72112') in 0.024639 seconds 
+  Import took 0.028641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/MFPS/Content/Art/UI/Weapons/sniper.png
+  artifactKey: Guid(8fc34eb714f6fa64f928bbad3049b5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Weapons/sniper.png using Guid(8fc34eb714f6fa64f928bbad3049b5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6324898962cd43e1dacba2bb61fc5635') in 0.025990 seconds 
+  Import took 0.030170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/MFPS/Content/Art/UI/Weapons/molotov.png
+  artifactKey: Guid(2fd72e2aa4d7cc14f993fa22e6f2ff19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Weapons/molotov.png using Guid(2fd72e2aa4d7cc14f993fa22e6f2ff19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3220701ceb4700fb972ee54df64636b3') in 0.022826 seconds 
+  Import took 0.027027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/MFPS/Content/Art/UI/Weapons/rifle.png
+  artifactKey: Guid(59c560ab0d189a94ebc9a73b29d258fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Weapons/rifle.png using Guid(59c560ab0d189a94ebc9a73b29d258fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76df3045d4be609f047e998f436a4c5') in 0.025968 seconds 
+  Import took 0.030368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/MFPS/Content/Art/UI/Weapons/knife.png
+  artifactKey: Guid(38349530c3a41fd4a8ecc2df82a57e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/UI/Weapons/knife.png using Guid(38349530c3a41fd4a8ecc2df82a57e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c8e43fe5240bcb6afa0f1dbbe741c0') in 0.016269 seconds 
+  Import took 0.020825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.909898 seconds.
+  path: Assets/MFPS/Content/Art/Font/Jura
+  artifactKey: Guid(0dfc88bc81559584f8504ab6571bfb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/Font/Jura using Guid(0dfc88bc81559584f8504ab6571bfb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdeb113d52e3e0fc78ea5d7a8f8eb92') in 0.003455 seconds 
+  Import took 0.008176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034813 seconds.
+  path: Assets/MFPS/Content/Art/Font/Jura/Jura-Light.otf
+  artifactKey: Guid(6fe5ce7fd92d36b4eac090724be463e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/Font/Jura/Jura-Light.otf using Guid(6fe5ce7fd92d36b4eac090724be463e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2455e5801b9b6cc693dc7a52aed32f4c') in 0.014848 seconds 
+  Import took 0.019449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.637310 seconds.
+  path: Assets/MFPS/Content/Art/Font/Khula/Khula-Bold.ttf
+  artifactKey: Guid(31f58d35dd29a3845a052ff643551cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/Font/Khula/Khula-Bold.ttf using Guid(31f58d35dd29a3845a052ff643551cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a175b24ba07b5caf04a721eaadfa8bb6') in 0.012408 seconds 
+  Import took 0.016515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/MFPS/Content/Art/Font/Khula/Khula-Regular.ttf
+  artifactKey: Guid(3047a2dd193a934459f6a011c36ccf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/Font/Khula/Khula-Regular.ttf using Guid(3047a2dd193a934459f6a011c36ccf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca33282b8d89d306247f197fac431160') in 0.020085 seconds 
+  Import took 0.023957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/MFPS/Content/Art/Font/Khula/Khula-Light.ttf
+  artifactKey: Guid(a45bcc8965ecdb341a9461f7833fdabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/Font/Khula/Khula-Light.ttf using Guid(a45bcc8965ecdb341a9461f7833fdabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7244d0285a942c02040c5c70be374676') in 0.023938 seconds 
+  Import took 0.028424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/MFPS/Content/Art/Font/Khula/Khula-ExtraBold.ttf
+  artifactKey: Guid(b241fe872b692d14784eb432073b73c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/Font/Khula/Khula-ExtraBold.ttf using Guid(b241fe872b692d14784eb432073b73c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1917cdfc652261f4ba61da133e8c8e68') in 0.023747 seconds 
+  Import took 0.027883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/MFPS/Content/Art/Font/Khula/Khula-SemiBold.ttf
+  artifactKey: Guid(4b0515db6d43eb34b960fe0c88d2783c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/Font/Khula/Khula-SemiBold.ttf using Guid(4b0515db6d43eb34b960fe0c88d2783c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68a591adb9bb7a9724d41648b91717b') in 0.024974 seconds 
+  Import took 0.028876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/MFPS/Content/Art/Font/Khula/Oswald[wght].ttf
+  artifactKey: Guid(057d36f2a6df9504b9fa72d452a0fb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/Art/Font/Khula/Oswald[wght].ttf using Guid(057d36f2a6df9504b9fa72d452a0fb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7170bf4db1ef5f80105917b1ddf2d4c7') in 0.021270 seconds 
+  Import took 0.025375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2898.302960 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/particles/smoke fine.mat
+  artifactKey: Guid(ae0d0d3880e98e74eb904512ab5bb97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/particles/smoke fine.mat using Guid(ae0d0d3880e98e74eb904512ab5bb97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dee89c5d247b6a2dec4c7e9353324da') in 0.022448 seconds 
+  Import took 0.027729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/particles/white trail.mat
+  artifactKey: Guid(5c4f038657d5789468601a9d33d7aaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/particles/white trail.mat using Guid(5c4f038657d5789468601a9d33d7aaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55199ed7e87ac7ada0192c3ab414637c') in 0.017980 seconds 
+  Import took 0.022004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/MFPS/Content/TexturesMaterials/particles/Trail.mat
+  artifactKey: Guid(f24f1eb3b1f10b848b1f4a0f8cc545c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MFPS/Content/TexturesMaterials/particles/Trail.mat using Guid(f24f1eb3b1f10b848b1f4a0f8cc545c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67c05876a10f569632b255148d45876') in 0.022645 seconds 
+  Import took 0.026672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.689200 seconds.
+  path: Assets/Addons/LevelSystem
+  artifactKey: Guid(8f9e0991dad8c5243b0b3ddd2166ec1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Addons/LevelSystem using Guid(8f9e0991dad8c5243b0b3ddd2166ec1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0901774acbb3d9a14c0c5a46e617b1') in 0.003303 seconds 
+  Import took 0.008869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.817931 seconds.
+  path: Assets/Addons/WaitingRoomPro/Waiting Room Pro.asset
+  artifactKey: Guid(6f322fe2b63dd30408f76f01bcf5a247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Addons/WaitingRoomPro/Waiting Room Pro.asset using Guid(6f322fe2b63dd30408f76f01bcf5a247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7c94f0ead95ce83673ec1b3a8bbe5c') in 0.005805 seconds 
+  Import took 0.013363 seconds .
+

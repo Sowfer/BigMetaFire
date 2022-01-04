@@ -1016,3 +1016,4 @@ Received Import Request.
 Start importing Assets/Addons/WaitingRoomPro/Waiting Room Pro.asset using Guid(6f322fe2b63dd30408f76f01bcf5a247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7c94f0ead95ce83673ec1b3a8bbe5c') in 0.005805 seconds 
   Import took 0.013363 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
